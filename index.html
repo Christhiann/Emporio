@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emporio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <img class="logo-img" src="img/logo_sem_fundo.png" alt="Empório Açaí" />
+            </div>
+            
+            <div class="logo">Emporio açaí</div>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+            <!-- Menu que será exibido ao clicar -->
+            <ul class="nav-links" id="menu">
+                <li><a href="cardapio.html" onclick="mostrarSecao('cardapio')">Cardápio</a></li>
+                <li><a href="#" onclick="mostrarSecao('sobre')">Sobre Nós</a></li>
+                <li><a href="#" onclick="mostrarSecao('Contato')">Contato</a></li>
+            </ul>
+        </nav>
+
+        <section id="sobre" class="conteudo">
+            <h1>EMPORIO AÇAÍ</h1>
+           <h2>O Melhor Açaí Artesanal da Cidade</h2>
+        <p>Feito com muito carinho, nosso açaí é artesanal, preparado com ingredientes frescos e selecionados para garantir a qualidade e sabor incomparáveis. Somos reconhecidos como o melhor da cidade e região!</p>
+        </section>
+        <section id="Contato" class="conteudo">
+            <h2>Contato</h2>
+            <p>📞 (98) 97012-3447</p>
+            <p>📍  Rua Cândido Mendes. n• 351. ( Ao lado da igreja Matriz).</p>
+            <p>WhatsApp: <a href="https://wa.me/5598970123447" target="_blank">Enviar mensagem</a></p>
+
+        </section>
+    </header>
+
+    <!-- Seção Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>🍇 Monte Seu Açaí Perfeito!</h1>
+            
+            <p>Escolha os acompanhamentos da sua preferência, e monte do seu jeito!</p>
+            <a href="cardapio.html">
+               <button class="cta-btn">Monte o Seu Açaí</button>
+            </a>
+        </div>
+    </section>
+
+    
+    <!-- Seção de Destaques -->
+    <section class="destaques">
+        <h2>Por que escolher nosso açaí?</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="img/ingredientes.jpg" alt="Ingredientes Naturais">
+                <h3>Ingredientes Naturais</h3>
+            </div>
+            <div class="card">
+                <img src="img/montando.png" alt="Monte do Seu Jeito">
+                <h3>Monte do Seu Jeito</h3>
+            </div>
+            <div class="card">
+                <img src="img/entregador.jpg" alt="Entrega Rápida">
+                <h3>Entrega Rápida</h3>
+            </div>
+            <div class="card">
+                <img src="img/art.jpg" alt="Açai Artesanal">
+                <h3>Açaí Artesanal</h3>
+            </div>
+        </div>
+    </section>
+    <!-- Seção Destaque Artesanal -->
+<section class="destaque-artesanal">
+    <div class="destaque-content">
+        <h2>O Melhor Açaí Artesanal da Cidade</h2>
+        <p>Feito com muito carinho, nosso açaí é artesanal, preparado com ingredientes frescos e selecionados para garantir a qualidade e sabor incomparáveis. Somos reconhecidos como o melhor da cidade e região!</p>
+        <div class="cta-artesanal">
+            <a href="cardapio.html">
+                <button class="cta-btn">Experimente o Melhor Açaí!</button>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Como Funciona -->
+    <section class="como-funciona">
+        <h2>Como Funciona?</h2>
+        <div class="steps">
+            <div class="step">1️⃣ Escolha o tamanho do seu açaí</div>
+            <div class="step">2️⃣ Selecione quantos complementos,frutas e cremes que deseja!</div>
+            <div class="step">3️⃣ Finalize o pedido e espere que a foto do açai montado junto com o preço chegará no seu WhatsApp!</div>
+        </div>
+    </section>
+
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="social">
+            <p>Nos siga nas redes sociais!</p>
+            <a href="https://www.instagram.com/emporio_acai2?igsh=MW4wNWdnc3Fnc3U1eA%3D%3D">Instagram</a> | <a href="https://wa.me/5598970123447">WhatsApp</a> | <a href="https://www.tiktok.com/@emporioacai2?_t=ZM-8vD0pnhReTP&_r=1 ">TikTok</a>
+        </div>
+        <p>© 2025 Emporio Açaí - Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
